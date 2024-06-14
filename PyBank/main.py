@@ -76,5 +76,12 @@ with open (outputFile, 'w') as file:
     print(f"Greatest Increase in Revenue: {gInc[0]} (${gInc[1]})", file=file)
     print(f"Greatest Decrease in Revenue: {gDec[0]} (${gDec[1]})", file=file)
 
+# Print Results to Terminal
+print("Financial Analysis")
+print("------------------")
+print(f"Total Months: {totalMonths}")
+print(f"Total: ${netTotal}")
+print(f"Greatest Increase in Revenue: {gInc[0]} (${gInc[1]})")
+print(f"Greatest Decrease in Revenue: {gDec[0]} (${gDec[1]})")
 # Get feedback that it has successfully populated in outputFile
 print("Financial analysis results have been written to file:", outputFile)
